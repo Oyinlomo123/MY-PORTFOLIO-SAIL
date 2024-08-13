@@ -276,7 +276,7 @@ opacity: 0;
   }
   img{
     width:100%;
-    height: 100vh;
+    height: 50vh;
   }
   .features{
     margin: 1rem 0rem 0 0rem;
@@ -307,6 +307,7 @@ opacity: 0;
 
 .project-img img{
   width: 90vw;
+  height: 50vh;
   margin: 0;
   padding: 1rem 1rem 1rem 1rem;
   background: rgb(20, 20, 20);
