@@ -1,7 +1,7 @@
 import Header from "./component/Header"
 import Body from "./component/Body"
 import Footter from "./component/Footter";
-import Header2 from "./component2/Header2";
+import Header2 from "./component/Header2";
 function App() {
   return (
     <div>
@@ -12,5 +12,4 @@ function App() {
     </div>
   );
 }
-
 export default App
