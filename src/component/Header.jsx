@@ -3,33 +3,38 @@ import React,{useEffect} from "react";
 import AOS from'aos'
 import 'aos/dist/aos.css';
 
+
+
+
 const Header = (props) => {
   useEffect(() => {
     AOS.init({
-      duration: 1000, // Animation duration (in milliseconds)
-           // Whether animation should happen only once
-      mirror: false,
-      anchorPlacement: 'top-bottom',
+     once:true,
     });
   }, []);
-
+  
   return (
-  <div className="nav" data-aos='fade-up'>
-    <h3 className="logo">
-    {props.myName}
-    </h3>
-    <ul className="nav-list">
-      <a href=""><li>Work</li></a>
-      <a href="">
-        <li>
-          About
-        </li>
-      </a>
-      <a href=""><li>Contact</li></a>
-    </ul>
-    
-  </div>
-    
+    <>
+      <div className="nav" data-aos='fade-up'>
+        <h3 className="logo">
+        {props.myName}
+        </h3>
+        <ul className="nav-list" id="nav">
+          <a href="#work"><li>Work</li></a>
+          <a href="#about">
+            <li>
+              About
+            </li>
+          </a>
+          <a href="#contact"><li>Contact</li></a>
+          
+        </ul>
+        
+      </div>
+    <div>
+   
+    </div>
+  </>  
   );
 }
 export default Header
