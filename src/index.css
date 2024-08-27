@@ -9,7 +9,6 @@ body{
   color: white;
   font-family: "Poppins", sans-serif;
   font-style: normal;
-  padding: 1.5rem;
   place-items: center;
 }
 .nav{
@@ -349,7 +348,7 @@ opacity: 0;
 }
 @media (max-width:800px) {
   body{
-    padding: 1rem;
+    padding: 0rem;
   }
 
   .nav-list{
@@ -414,7 +413,7 @@ opacity: 0;
   justify-content: center;
 }
 .project-img img{
-  height: 200px;
+  height: 250px;
 }
 .proj-info{
   width: 100%;
@@ -482,6 +481,7 @@ opacity: 0;
   flex-direction: column;
   justify-content: space-between;
   margin: 2rem 0px;
+  padding: 0 1rem;
 }
 .let-connect{
   margin-bottom: 3rem;
