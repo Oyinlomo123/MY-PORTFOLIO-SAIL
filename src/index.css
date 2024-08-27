@@ -456,7 +456,7 @@ opacity: 0;
 }
 .about-content ul{
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr ;
 }
 .about-content li{
   list-style: none;
