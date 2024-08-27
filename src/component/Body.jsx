@@ -127,13 +127,13 @@ const Body = (props) => {
           <div className="about"  >
             <h1>MY&nbsp;CAPABILITIES</h1>
           </div>
-          <div className="about-content"  >
+          <div className="about-content "  >
             <h6>
             I am always looking to add more skills, staying ahead of industry trends and continuously refining my expertise to deliver innovative and cutting-edge solutions that enhance user experiences. 
             </h6>
             <ul>
               <li>HTML</li>
-              <li>JAVASCRIP</li>
+              <li>JAVASCRIPT</li>
               <li>ACCESSIBILITY</li>
               <li>FIGMA</li>
             </ul>
