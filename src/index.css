@@ -465,6 +465,7 @@ opacity: 0;
   border-radius: 20px;
   gap: 1rem;
   transition: 1s;
+  text-align: center;
 }
 .about-content h3{
   font-weight: 500;

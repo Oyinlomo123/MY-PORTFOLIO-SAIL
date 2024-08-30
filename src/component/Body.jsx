@@ -4,6 +4,7 @@ import portfolio from"../assets/portfolio.png"
 import telvida from"../assets/telvidaweb.png"
 import remote from "../assets/remote-work.png"
 import signUp from "../assets/signUp.png"
+import weather from "../assets/weather.png"
 const Body = (props) => {
   return (
     <div data-aos='fade-up'  data-aos-duration="3000">
@@ -53,7 +54,7 @@ const Body = (props) => {
             <h6>This portfolio website serves as a digital showcase of my skills, experience, and projects. It is designed to provide potential clients, employers, and collaborators with a comprehensive view of my work in web design, development, and other creative endeavor</h6><br/>
             <h4>PROJECT INFO</h4>
             <h4>Year <span className="info-span">2023</span></h4>
-            <h4 >Role <span className="info-span">Front-end Developer</span></h4>
+            <h4 >Role <span className="info-span">Full-Stack Developer</span></h4>
             <div className="live">
             <h4><a href="#">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
             <h4 className="git-span"><a href="https://github.com/Oyinlomo123/my-portfolio"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
@@ -61,23 +62,7 @@ const Body = (props) => {
           </div>
           
         </div><hr className="thin-line"/>
-        <div className="first-proj ">
-          <div className="project-img" data-aos='zoom-in'>
-            <img src={telvida} alt="" />
-          </div>
-          <div className="proj-info" >
-            <h1>Telvida</h1>
-            <h6>Redesign the Telvida website to enhance user experience, improve accessibility, and align with the company's updated branding. The goal was to create a modern, responsive site that effectively communicates Telvida’s services and values while providing an intuitive navigation experience</h6><br/>
-            <h4>PROJECT INFO</h4>
-            <h4>Year <span className="info-span">2024</span></h4>
-            <h4 >Role <span className="info-span">Front-end Developer</span></h4>
-            <div className="live">
-            <h4><a href="#">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
-            <h4 className="git-span"><a href="#"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
-            </div>
-          </div>
-          
-        </div><hr className="thin-line"/>
+        
         <div className="first-proj ">
           <div className="project-img" data-aos='zoom-in'>
             <img src={remote} alt="" />
@@ -108,6 +93,23 @@ const Body = (props) => {
             <div className="live">
             <h4><a href="https://sign-in-dusky.vercel.app/" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
             <h4 className="git-span"><a href="https://github.com/Oyinlomo123/sign-in" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
+            </div>
+          </div>
+          
+        </div><hr className="thin-line"/>
+        <div className="first-proj ">
+          <div className="project-img" data-aos='zoom-in'>
+            <img src={weather} alt="" />
+          </div>
+          <div className="proj-info" >
+            <h1>Weather forecast</h1>
+            <h6>I Developed a comprehensive weather forecast website that delivers accurate and up-to-date weather information to users. The site features real-time data on temperature, humidity, wind speed, and other meteorological conditions, presented in a user-friendly and visually appealing interface.</h6><br/>
+            <h4>PROJECT INFO</h4>
+            <h4>Year <span className="info-span">2024</span></h4>
+            <h4 >Role <span className="info-span">Full-Stack Developer</span></h4>
+            <div className="live">
+            <h4><a href="https://my-test-iig9.vercel.app/" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
+            <h4 className="git-span"><a href="https://github.com/Oyinlomo123/weather" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
             </div>
           </div>
           
