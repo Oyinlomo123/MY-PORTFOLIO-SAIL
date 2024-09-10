@@ -1,7 +1,7 @@
 import image from "../assets/myimage.jpg"
 import dashboard from"../assets/mydashboard.png"
 import portfolio from"../assets/portfolio.png"
-import telvida from"../assets/telvidaweb.png"
+import telvi from"../assets/telvi.png"
 import remote from "../assets/remote-work.png"
 import signUp from "../assets/signUp.png"
 import weather from "../assets/weather.png"
@@ -110,6 +110,22 @@ const Body = (props) => {
             <div className="live">
             <h4><a href="https://my-test-iig9.vercel.app/" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
             <h4 className="git-span"><a href="https://github.com/Oyinlomo123/weather" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
+            </div>
+          </div>
+        </div><hr className="thin-line"/>
+        <div className="first-proj ">
+          <div className="project-img" data-aos='zoom-in'>
+            <img src={telvi} alt="" />
+          </div>
+          <div className="proj-info" >
+            <h1>Telvida Design</h1>
+            <h6>I designed an intuitive and user-friendly page that balances aesthetics with functionality. The goal was to create a seamless onboarding experience that encourages user engagement and conversion.</h6><br/>
+            <h4>PROJECT INFO</h4>
+            <h4>Year <span className="info-span">2024</span></h4>
+            <h4 >Role <span className="info-span">Front-end Developer</span></h4>
+            <div className="live">
+            <h4><a href="https://my-project-omega-weld.vercel.app/partner" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
+            <h4 className="git-span"><a href="https://github.com/Oyinlomo123/my-project" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
             </div>
           </div>
           
