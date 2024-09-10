@@ -124,7 +124,7 @@ const Body = (props) => {
             <h4>Year <span className="info-span">2024</span></h4>
             <h4 >Role <span className="info-span">Front-end Developer</span></h4>
             <div className="live">
-            <h4><a href="https://my-project-omega-weld.vercel.app/partner" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
+            <h4><a href="https://my-project-omega-weld.vercel.app/" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
             <h4 className="git-span"><a href="https://github.com/Oyinlomo123/my-project" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
             </div>
           </div>
