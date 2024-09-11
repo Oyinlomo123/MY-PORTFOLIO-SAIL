@@ -3,10 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+:root{
+  --primary-color:#fff;
+  --secondary-color:#000;
+}
+.darktheme{
+  --primary-color:#000;
+  --secondary-color:#fff;
+}
 body{
-  background: #000;
-  color: white;
+  background: var(--secondary-color);
+  color: var(--primary-color);
   font-family: "Poppins", sans-serif;
   font-style: normal;
   place-items: center;
@@ -27,7 +34,7 @@ body{
 }
 .nav-list a{
   text-decoration: none;
-  color: white;
+  color: var(--primary-color);
 }
 .nav-list li{
   padding: 8px;
@@ -69,6 +76,11 @@ body{
 }
 .menu a{
   text-decoration: none;
+}
+.mode{
+  background: var(--secondary-color);
+  color:var(--primary-color);
+  border: none;
 }
 .cards{
   width: 100%;
@@ -211,6 +223,7 @@ body{
 .git-span i{
   padding: 0;
   font-size: 18px;
+  background:var(--secondary-color);
 }
 .aboutme{
   display: flex;
@@ -239,7 +252,7 @@ body{
 }
 .about-content li{
   list-style: none;
-  border: 1px solid white;
+  border: 1px solid var(--primary-color);
   padding: 10px 20px;
   border-radius: 20px;
   transition: 1s;
@@ -247,7 +260,7 @@ body{
 .about-content li:hover{
   background: rgb(181, 236, 98);
   border-color:rgb(181, 236, 98) ;
-  color: #000;
+  color: var(--secondary-color);
 }
 .about-content h3{
   font-weight: 500;
@@ -293,13 +306,13 @@ body{
   padding-bottom: 1rem;
 }
 .let-connect a{
-  color: white;
+  color: var(--primary-color);
   text-decoration-color:rgb(181, 236, 98) ;
 }
 .let-connect i{
   font-size: 24px;
   padding: 10px ;
-  background-color: black;
+  background-color: var(--secondary-color);
   margin:0 ;
   color: rgb(181, 236, 98);
 }
@@ -319,16 +332,16 @@ input{
   background: rgb(20, 20, 20);
   margin-bottom: 1rem;
   border: none;
-  color: #fff;
+  color:white;
 }
 label{
   font-weight: 300;
 }
 .message{
-  background: rgb(20, 20, 20);
+  background:rgb(20, 20, 20);
   border: none;
   width: 90%;
-  color: #fff;
+  color:white;
 }
 .submit{
   width: 6rem;
@@ -338,7 +351,7 @@ label{
   padding: 10px 20px 10px 20px;
   border-radius: 20px;
   background: rgb(181, 236, 98);
-  color: #000;
+  color: var(--secondary-color);
 }
 .hidden{
 opacity: 0;
