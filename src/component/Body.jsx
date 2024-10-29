@@ -6,6 +6,8 @@ import telvidaweb from "../assets/telvidaweb.png"
 import remote from "../assets/remote-work.png"
 import signUp from "../assets/signUp.png"
 import weather from "../assets/weather.png"
+import car from "../assets/car-rental.png"
+import exclusive from "../assets/exclusive.png"
 const Body = (props) => {
   return (
     <div data-aos='fade-up'  data-aos-duration="3000">
@@ -144,6 +146,40 @@ const Body = (props) => {
             <div className="live">
             <h4><a href="https://my-project-omega-weld.vercel.app/" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
             <h4 className="git-span"><a href="https://github.com/Oyinlomo123/my-project" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
+            </div>
+          </div>
+          
+        </div><hr className="thin-line"/>
+        <div className="first-proj ">
+          <div className="project-img" data-aos='zoom-in'>
+            <img src={car} alt="" />
+          </div>
+          <div className="proj-info" >
+            <h1>Car Rental</h1>
+            <h6>I designed an intuitive and user-friendly page that balances aesthetics with functionality. The goal was to create a seamless onboarding experience that encourages user engagement and conversion.</h6><br/>
+            <h4>PROJECT INFO</h4>
+            <h4>Year <span className="info-span">2024</span></h4>
+            <h4 >Role <span className="info-span">Front-end Developer</span></h4>
+            <div className="live">
+            <h4><a href="https://my-test-zjmv.vercel.app/" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
+            <h4 className="git-span"><a href="https://github.com/Oyinlomo123/tvdng" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
+            </div>
+          </div>
+          
+        </div><hr className="thin-line"/>
+        <div className="first-proj ">
+          <div className="project-img" data-aos='zoom-in'>
+            <img src={exclusive} alt="" />
+          </div>
+          <div className="proj-info" >
+            <h1>Exclusive</h1>
+            <h6>I designed an intuitive and user-friendly page that balances aesthetics with functionality. The goal was to create a seamless onboarding experience that encourages user engagement and conversion.</h6><br/>
+            <h4>PROJECT INFO</h4>
+            <h4>Year <span className="info-span">2024</span></h4>
+            <h4 >Role <span className="info-span">Front-end Developer</span></h4>
+            <div className="live">
+            <h4><a href="https://e-commerce-xyea.vercel.app/" target="blank">LIVE DEMO <i class="ri-arrow-right-up-line"></i></a></h4>
+            <h4 className="git-span"><a href="https://github.com/Oyinlomo123/e-commerce" target="blank"> SEE ON GITHUB <i class="ri-github-fill"></i></a></h4>
             </div>
           </div>
           

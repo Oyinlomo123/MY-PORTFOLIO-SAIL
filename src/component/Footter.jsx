@@ -5,7 +5,7 @@ const Footter = () => {
        <div className="connect"  >
           <div className="let-connect " id="contact">
             <h1>LET'S CONNECT</h1>
-            <h6>Say hello at <a href="gmail">saheedbarakat24@gmail.com</a> <br/> For more info, here's my <a href="#">resume</a> </h6>
+            <h6>Say hello at <a href="gmail">saheedbarakat24@gmail.com</a> <br/> For more info, here's my <a className="resume" href="#">Resume</a> </h6>
             <a href="https://www.linkedin.com/in/saheed-barakat-513311282/
               "target="blank"><i class="ri-linkedin-fill"></i></a>
             <a href="https://github.com/Oyinlomo123"target="blank"><i class="ri-github-fill"></i></a>
@@ -13,7 +13,7 @@ const Footter = () => {
             <a href="https://www.instagram.com/saheedbarakat06?igsh=M2pubDU0a2hzYjNi" target="blank"><i class="ri-instagram-line"></i></a>
           </div>
           <div className="connect-form">
-            <form action="">
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
               <label htmlFor="">Name</label><br/>
               <input  type="text" name="" id="" /><br/>
               <label htmlFor="">Email </label><br/>
